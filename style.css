@@ -1,0 +1,364 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: ;
+}
+
+
+*{
+
+  box-sizing: border-box;
+}
+
+
+
+
+
+#logo img {
+width: 10%;
+
+}
+
+nav ul
+{
+list-style-type: none;
+display: flex;
+margin-right: 15px
+}
+
+nav a
+{
+  padding-top: 20px;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: rgb(87, 85, 85);
+  margin-right: 40px;
+  
+}
+
+nav a:hover
+{
+  color: #0065FC;
+    font-weight: bold;
+    background: transparent;
+    transform: scale(1.03);
+    border-top: blue solid 2px;     
+    
+}
+
+
+h1{
+font-size: 2em;
+
+}
+
+
+.barrederecherche{
+
+border-right: none;
+border-left: none;
+border-top: #F2F2F2 1px solid;
+border-bottom: #F2F2F2 1px solid;
+padding: 0 1.5em;
+width: 15em;
+font-size: 1em;
+height: 3.5em;
+
+}
+
+.boutonrecherche{
+background-color: #0065FC;
+color: white;
+border: none;
+border-radius: 0 1rem 1em 0;
+padding: 0 1.5em;
+font-size: 1em;
+cursor: pointer;
+height: 3.5em;
+
+
+
+}
+
+.recherche{
+display: flex;
+overflow: auto;
+margin: 0 0 0 10px;  
+}
+
+
+.icone i{
+  background-color: darkgrey;
+  margin: 0 0 0 10px;
+  border-radius: 1rem 0 0 1rem; 
+  font-size: 1.2rem;
+  padding: 0.9em 0.7em 1em 1em;
+  color: black;
+}
+
+.lignefiltres{
+display: flex;
+margin-left: 10px;
+padding-top: 20px;
+background-color:;
+justify-content: space-between ;
+width: 700px;
+ 
+}
+
+.logoinfo{
+
+  border: 3px grey;
+
+}
+
+
+
+
+.blocmain{
+
+  background-color: rgb(214, 211, 211);
+ border-radius: 1em;
+  width: 700px;
+  height: 500px;
+}
+
+
+.fas{
+  color: #0065FC;
+  }
+
+
+
+
+ 
+
+
+
+.economique{
+border: 2px grey solid;
+border-radius: 5em;
+height: 30px;
+
+}
+
+.familial{
+  border: 2px grey solid;
+  border-radius: 6em;
+  height: 30px;
+  }
+
+.romantique{
+    border: 2px grey solid;
+    border-radius: 5em;
+    height: 30px;
+    }
+
+.animaux{
+      border: 2px grey solid;
+      border-radius: 5em;
+      height: 30px;
+      }
+
+.lignefiltres i {
+  content: "\f53a";
+  color: blue;
+  border-radius: 15em;
+  padding: 10px;
+  background: #DEEBFF;
+  margin-top: -4px;
+  
+        }
+
+.logoinfo i {
+
+border: 2px grey;
+
+}        
+
+
+.hebergementetpopulaire {
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  }
+
+
+.hebergement{
+  background-color: #F2F2F2;
+  border-radius: 1.25rem;
+  width: 50%;
+  height: 50%;
+}
+
+.hbgtitre{
+  margin-left: 30px;
+}
+
+.marseille
+{
+display: flex;
+flex-wrap: wrap;
+align-content: space-around;
+justify-content: space-around;
+padding: 40px;
+}
+
+.hbg{
+background-color: white;
+border-radius: 1.25rem;
+box-shadow: 0 0 16px grey;
+cursor: pointer;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.hotel{
+border-radius: 1.25em 1.25em 0em 0em;
+width: 240px;
+height: 110px;
+}
+
+a figcaption{
+
+color: black;
+font-size: 1.1em;
+margin: 5px 0 0 10px;
+font-weight: bold;
+}
+
+.hbg p{
+
+margin: 2px 0 2px 10px;
+}
+
+ .etoilegris i{
+color: gray;
+
+ } 
+
+ .afficherplus{
+
+  background-color: green;
+  font-size: 1.2em;
+  padding-bottom: ;
+
+ }
+
+ /* Aside Les plus populaires debut*/
+
+.plusPopulaires{
+
+background-color: #F2F2F2;
+border-radius: 1.25rem;
+width: 26%;
+}
+
+h4{
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+}
+
+.populaires{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+
+.blockPopu{
+
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px grey;
+  cursor: pointer;
+  margin-bottom: 20px;
+  
+}
+
+
+.blockPopu a {
+
+display: flex;
+
+}
+
+.texteplusPopulaires h3{
+
+margin: 20px 0px 0px 8px;
+
+}
+
+.imageplusPopulaires{
+
+width: 140px;
+height: 140px;
+border-radius: 1.25em 0 0 1.25em;
+object-fit: cover;
+padding: 0.3em;
+background-color: white;
+
+
+}
+
+
+
+
+.star{
+
+ margin: 10px 0 0 5px;
+}
+
+.texteplusPopulaires p{
+
+margin: 10px 0 0 8px;
+
+}
+
+
+
+
+  /* Aside Les plus populaires Fin*/
+
+
+  /* Activités */
+
+.activitesTitre{
+color: black;
+font-size: 1.3em;
+font-weight: 600;
+padding-top: 50px;
+}
+
+.touslesblocksactivites{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: space-between;
+justify-content: space-between;
+height: 496px;
+margin-right: 90px;
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
+
+.activites1image{
+width: 300px;
+height: 440px;
+object-fit: cover;
+border-radius: 1.25rem 1.25 0 0;
+
+}
+
+#blockActivites{
+background-color: white;
+border-radius: 1.25rem;
+box-shadow: 0 0 16px #0000002e;
+}
